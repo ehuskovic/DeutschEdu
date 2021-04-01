@@ -3,19 +3,104 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481961352577F51D008212DF /* VocabularyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481961342577F51D008212DF /* VocabularyViewModel.swift */; };
+		481CEF0D256E528200FA6D1D /* PlusquamperfektView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481CEF0C256E528200FA6D1D /* PlusquamperfektView.swift */; };
+		481CEF11256EAFB900FA6D1D /* SubordinateClauses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481CEF10256EAFB900FA6D1D /* SubordinateClauses.swift */; };
+		487E15602583DFF50015F571 /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E155F2583DFF50015F571 /* LevelView.swift */; };
+		487E156225840E1D0015F571 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E156125840E1D0015F571 /* HorizontalListView.swift */; };
+		487E15642584E1F80015F571 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E15632584E1F80015F571 /* QuizView.swift */; };
+		487E15662584F0230015F571 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E15652584F0230015F571 /* Question.swift */; };
+		487E15682584F1E40015F571 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E15672584F1E40015F571 /* QuestionViewModel.swift */; };
+		487E156A25850DEF0015F571 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E156925850DEF0015F571 /* QuestionView.swift */; };
+		487E157025857A7E0015F571 /* QuizA2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E156F25857A7E0015F571 /* QuizA2View.swift */; };
+		487E157225857AA20015F571 /* QuizB1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E157125857AA20015F571 /* QuizB1View.swift */; };
+		487E157425857ABE0015F571 /* QuizB2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E157325857ABE0015F571 /* QuizB2View.swift */; };
+		487E157625857AD90015F571 /* QuizC1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487E157525857AD90015F571 /* QuizC1View.swift */; };
+		489A67FA257EF8DE00B901AF /* NumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A67F9257EF8DE00B901AF /* NumberTest.swift */; };
+		489A67FC257F947900B901AF /* Adjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A67FB257F947900B901AF /* Adjective.swift */; };
+		489A67FE257F94FB00B901AF /* AdjectivesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A67FD257F94FB00B901AF /* AdjectivesViewModel.swift */; };
+		489A6800257FE09800B901AF /* DetailVocabularyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A67FF257FE09800B901AF /* DetailVocabularyView.swift */; };
+		489A68022580D98700B901AF /* VerbsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A68012580D98700B901AF /* VerbsDetailView.swift */; };
+		489A68042580EB5C00B901AF /* VerbsThreeDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A68032580EB5C00B901AF /* VerbsThreeDetailedView.swift */; };
+		489A6806258104C700B901AF /* VocabularyRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A6805258104C700B901AF /* VocabularyRowView.swift */; };
+		489A68082581152000B901AF /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A68072581152000B901AF /* DescriptionView.swift */; };
+		489A680A2581560300B901AF /* HeaderCaptionStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489A68092581560300B901AF /* HeaderCaptionStyleView.swift */; };
+		48AC45122577CDC400C63D57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48AC45112577CDC400C63D57 /* GoogleService-Info.plist */; };
+		48B9B9AC257BF68500FCFDAA /* C1LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B9B9AB257BF68500FCFDAA /* C1LevelViewModel.swift */; };
+		48B9B9AE257BFA0600FCFDAA /* VokabularViewC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B9B9AD257BFA0600FCFDAA /* VokabularViewC1.swift */; };
+		48B9B9B2257C31A100FCFDAA /* ArtikelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B9B9B1257C31A100FCFDAA /* ArtikelText.swift */; };
+		48B9B9B4257EDCFE00FCFDAA /* TenseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B9B9B3257EDCFE00FCFDAA /* TenseInfo.swift */; };
 		48DC0069256D8FE50096EBA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0068256D8FE50096EBA1 /* AppDelegate.swift */; };
 		48DC006B256D8FE50096EBA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC006A256D8FE50096EBA1 /* SceneDelegate.swift */; };
 		48DC006D256D8FE50096EBA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC006C256D8FE50096EBA1 /* ContentView.swift */; };
 		48DC006F256D8FE60096EBA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DC006E256D8FE60096EBA1 /* Assets.xcassets */; };
 		48DC0072256D8FE60096EBA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DC0071256D8FE60096EBA1 /* Preview Assets.xcassets */; };
 		48DC0075256D8FE60096EBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DC0073256D8FE60096EBA1 /* LaunchScreen.storyboard */; };
+		48DC0080256D90370096EBA1 /* A1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC007F256D90370096EBA1 /* A1View.swift */; };
+		48DC0098256D90430096EBA1 /* PrateritumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0081256D90420096EBA1 /* PrateritumView.swift */; };
+		48DC0099256D90430096EBA1 /* VerbenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0082256D90430096EBA1 /* VerbenView.swift */; };
+		48DC009A256D90430096EBA1 /* VokabularViewA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0083256D90430096EBA1 /* VokabularViewA2.swift */; };
+		48DC009C256D90430096EBA1 /* VokabularViewB1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0085256D90430096EBA1 /* VokabularViewB1.swift */; };
+		48DC009D256D90430096EBA1 /* VokabularViewB2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0086256D90430096EBA1 /* VokabularViewB2.swift */; };
+		48DC009F256D90430096EBA1 /* ModalverbenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0088256D90430096EBA1 /* ModalverbenView.swift */; };
+		48DC00A0256D90430096EBA1 /* B2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0089256D90430096EBA1 /* B2View.swift */; };
+		48DC00A1256D90430096EBA1 /* A2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC008A256D90430096EBA1 /* A2View.swift */; };
+		48DC00A2256D90430096EBA1 /* NummerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC008B256D90430096EBA1 /* NummerView.swift */; };
+		48DC00A3256D90430096EBA1 /* PerfektView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC008C256D90430096EBA1 /* PerfektView.swift */; };
+		48DC00A4256D90430096EBA1 /* PartizipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC008D256D90430096EBA1 /* PartizipView.swift */; };
+		48DC00A6256D90430096EBA1 /* VokabularViewA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC008F256D90430096EBA1 /* VokabularViewA1.swift */; };
+		48DC00A7256D90430096EBA1 /* NebensatzeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0090256D90430096EBA1 /* NebensatzeView.swift */; };
+		48DC00A8256D90430096EBA1 /* C1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0091256D90430096EBA1 /* C1View.swift */; };
+		48DC00A9256D90430096EBA1 /* AdjectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0092256D90430096EBA1 /* AdjectiveView.swift */; };
+		48DC00AA256D90430096EBA1 /* B1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0093256D90430096EBA1 /* B1View.swift */; };
+		48DC00AC256D90430096EBA1 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC0095256D90430096EBA1 /* ButtonStyle.swift */; };
+		48DC00B8256D904D0096EBA1 /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00AF256D904D0096EBA1 /* LevelsViewModel.swift */; };
+		48DC00BA256D904D0096EBA1 /* A2LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00B1256D904D0096EBA1 /* A2LevelViewModel.swift */; };
+		48DC00BB256D904D0096EBA1 /* VerbsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00B2256D904D0096EBA1 /* VerbsViewModel.swift */; };
+		48DC00BC256D904D0096EBA1 /* B1LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00B3256D904D0096EBA1 /* B1LevelViewModel.swift */; };
+		48DC00BE256D904D0096EBA1 /* NumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00B5256D904D0096EBA1 /* NumberViewModel.swift */; };
+		48DC00BF256D904D0096EBA1 /* A1LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00B6256D904D0096EBA1 /* A1LevelsViewModel.swift */; };
+		48DC00C0256D904D0096EBA1 /* B2LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00B7256D904D0096EBA1 /* B2LevelViewModel.swift */; };
+		48DC00CA256D90550096EBA1 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00C1256D90550096EBA1 /* Level.swift */; };
+		48DC00CB256D90550096EBA1 /* Verben.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00C2256D90550096EBA1 /* Verben.swift */; };
+		48DC00D1256D90550096EBA1 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00C8256D90550096EBA1 /* Number.swift */; };
+		48DC00D2256D90550096EBA1 /* Vokabular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00C9256D90550096EBA1 /* Vokabular.swift */; };
+		48DC00D4256DA7C60096EBA1 /* VerbInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DC00D3256DA7C60096EBA1 /* VerbInfo.swift */; };
+		85475B2CC57AE5AD67955249 /* Pods_DeutschEdu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6108D7C678E25F0F2BC10211 /* Pods_DeutschEdu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		481961342577F51D008212DF /* VocabularyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyViewModel.swift; sourceTree = "<group>"; };
+		481CEF0C256E528200FA6D1D /* PlusquamperfektView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusquamperfektView.swift; sourceTree = "<group>"; };
+		481CEF10256EAFB900FA6D1D /* SubordinateClauses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubordinateClauses.swift; sourceTree = "<group>"; };
+		487E155F2583DFF50015F571 /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		487E156125840E1D0015F571 /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
+		487E15632584E1F80015F571 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		487E15652584F0230015F571 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		487E15672584F1E40015F571 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		487E156925850DEF0015F571 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		487E156F25857A7E0015F571 /* QuizA2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizA2View.swift; sourceTree = "<group>"; };
+		487E157125857AA20015F571 /* QuizB1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizB1View.swift; sourceTree = "<group>"; };
+		487E157325857ABE0015F571 /* QuizB2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizB2View.swift; sourceTree = "<group>"; };
+		487E157525857AD90015F571 /* QuizC1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizC1View.swift; sourceTree = "<group>"; };
+		489A67F9257EF8DE00B901AF /* NumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTest.swift; sourceTree = "<group>"; };
+		489A67FB257F947900B901AF /* Adjective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adjective.swift; sourceTree = "<group>"; };
+		489A67FD257F94FB00B901AF /* AdjectivesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjectivesViewModel.swift; sourceTree = "<group>"; };
+		489A67FF257FE09800B901AF /* DetailVocabularyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVocabularyView.swift; sourceTree = "<group>"; };
+		489A68012580D98700B901AF /* VerbsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbsDetailView.swift; sourceTree = "<group>"; };
+		489A68032580EB5C00B901AF /* VerbsThreeDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbsThreeDetailedView.swift; sourceTree = "<group>"; };
+		489A6805258104C700B901AF /* VocabularyRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyRowView.swift; sourceTree = "<group>"; };
+		489A68072581152000B901AF /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		489A68092581560300B901AF /* HeaderCaptionStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCaptionStyleView.swift; sourceTree = "<group>"; };
+		48AC45112577CDC400C63D57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48B9B9AB257BF68500FCFDAA /* C1LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C1LevelViewModel.swift; sourceTree = "<group>"; };
+		48B9B9AD257BFA0600FCFDAA /* VokabularViewC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VokabularViewC1.swift; sourceTree = "<group>"; };
+		48B9B9B1257C31A100FCFDAA /* ArtikelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtikelText.swift; sourceTree = "<group>"; };
+		48B9B9B3257EDCFE00FCFDAA /* TenseInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenseInfo.swift; sourceTree = "<group>"; };
 		48DC0065256D8FE50096EBA1 /* DeutschEdu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeutschEdu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DC0068256D8FE50096EBA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48DC006A256D8FE50096EBA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +109,39 @@
 		48DC0071256D8FE60096EBA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48DC0074256D8FE60096EBA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48DC0076256D8FE60096EBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DC007F256D90370096EBA1 /* A1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A1View.swift; sourceTree = "<group>"; };
+		48DC0081256D90420096EBA1 /* PrateritumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrateritumView.swift; sourceTree = "<group>"; };
+		48DC0082256D90430096EBA1 /* VerbenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbenView.swift; sourceTree = "<group>"; };
+		48DC0083256D90430096EBA1 /* VokabularViewA2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VokabularViewA2.swift; sourceTree = "<group>"; };
+		48DC0085256D90430096EBA1 /* VokabularViewB1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VokabularViewB1.swift; sourceTree = "<group>"; };
+		48DC0086256D90430096EBA1 /* VokabularViewB2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VokabularViewB2.swift; sourceTree = "<group>"; };
+		48DC0088256D90430096EBA1 /* ModalverbenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalverbenView.swift; sourceTree = "<group>"; };
+		48DC0089256D90430096EBA1 /* B2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B2View.swift; sourceTree = "<group>"; };
+		48DC008A256D90430096EBA1 /* A2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2View.swift; sourceTree = "<group>"; };
+		48DC008B256D90430096EBA1 /* NummerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NummerView.swift; sourceTree = "<group>"; };
+		48DC008C256D90430096EBA1 /* PerfektView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfektView.swift; sourceTree = "<group>"; };
+		48DC008D256D90430096EBA1 /* PartizipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartizipView.swift; sourceTree = "<group>"; };
+		48DC008F256D90430096EBA1 /* VokabularViewA1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VokabularViewA1.swift; sourceTree = "<group>"; };
+		48DC0090256D90430096EBA1 /* NebensatzeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NebensatzeView.swift; sourceTree = "<group>"; };
+		48DC0091256D90430096EBA1 /* C1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = C1View.swift; sourceTree = "<group>"; };
+		48DC0092256D90430096EBA1 /* AdjectiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjectiveView.swift; sourceTree = "<group>"; };
+		48DC0093256D90430096EBA1 /* B1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B1View.swift; sourceTree = "<group>"; };
+		48DC0095256D90430096EBA1 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		48DC00AF256D904D0096EBA1 /* LevelsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewModel.swift; sourceTree = "<group>"; };
+		48DC00B1256D904D0096EBA1 /* A2LevelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A2LevelViewModel.swift; sourceTree = "<group>"; };
+		48DC00B2256D904D0096EBA1 /* VerbsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbsViewModel.swift; sourceTree = "<group>"; };
+		48DC00B3256D904D0096EBA1 /* B1LevelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B1LevelViewModel.swift; sourceTree = "<group>"; };
+		48DC00B5256D904D0096EBA1 /* NumberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberViewModel.swift; sourceTree = "<group>"; };
+		48DC00B6256D904D0096EBA1 /* A1LevelsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A1LevelsViewModel.swift; sourceTree = "<group>"; };
+		48DC00B7256D904D0096EBA1 /* B2LevelViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B2LevelViewModel.swift; sourceTree = "<group>"; };
+		48DC00C1256D90550096EBA1 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		48DC00C2256D90550096EBA1 /* Verben.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verben.swift; sourceTree = "<group>"; };
+		48DC00C8256D90550096EBA1 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		48DC00C9256D90550096EBA1 /* Vokabular.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vokabular.swift; sourceTree = "<group>"; };
+		48DC00D3256DA7C60096EBA1 /* VerbInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerbInfo.swift; sourceTree = "<group>"; };
+		6108D7C678E25F0F2BC10211 /* Pods_DeutschEdu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeutschEdu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A9374E0CFE4FE2C602C81E /* Pods-DeutschEdu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeutschEdu.release.xcconfig"; path = "Target Support Files/Pods-DeutschEdu/Pods-DeutschEdu.release.xcconfig"; sourceTree = "<group>"; };
+		EA56B62A3B6CBEDEB0A12138 /* Pods-DeutschEdu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeutschEdu.debug.xcconfig"; path = "Target Support Files/Pods-DeutschEdu/Pods-DeutschEdu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85475B2CC57AE5AD67955249 /* Pods_DeutschEdu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +161,8 @@
 			children = (
 				48DC0067256D8FE50096EBA1 /* DeutschEdu */,
 				48DC0066256D8FE50096EBA1 /* Products */,
+				4B24746054E461403E965AA3 /* Pods */,
+				A321C8891575CA544E188414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +177,16 @@
 		48DC0067256D8FE50096EBA1 /* DeutschEdu */ = {
 			isa = PBXGroup;
 			children = (
+				48DC007C256D90040096EBA1 /* View */,
+				48DC007D256D900B0096EBA1 /* ViewModel */,
+				48DC007E256D90130096EBA1 /* Model */,
 				48DC0068256D8FE50096EBA1 /* AppDelegate.swift */,
 				48DC006A256D8FE50096EBA1 /* SceneDelegate.swift */,
 				48DC006C256D8FE50096EBA1 /* ContentView.swift */,
 				48DC006E256D8FE60096EBA1 /* Assets.xcassets */,
 				48DC0073256D8FE60096EBA1 /* LaunchScreen.storyboard */,
 				48DC0076256D8FE60096EBA1 /* Info.plist */,
+				48AC45112577CDC400C63D57 /* GoogleService-Info.plist */,
 				48DC0070256D8FE60096EBA1 /* Preview Content */,
 			);
 			path = DeutschEdu;
@@ -75,6 +200,100 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		48DC007C256D90040096EBA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48DC008A256D90430096EBA1 /* A2View.swift */,
+				48DC0092256D90430096EBA1 /* AdjectiveView.swift */,
+				48DC0093256D90430096EBA1 /* B1View.swift */,
+				48DC0089256D90430096EBA1 /* B2View.swift */,
+				48DC0095256D90430096EBA1 /* ButtonStyle.swift */,
+				48DC0091256D90430096EBA1 /* C1View.swift */,
+				48DC0088256D90430096EBA1 /* ModalverbenView.swift */,
+				48DC0090256D90430096EBA1 /* NebensatzeView.swift */,
+				48DC008B256D90430096EBA1 /* NummerView.swift */,
+				48DC008D256D90430096EBA1 /* PartizipView.swift */,
+				48DC008C256D90430096EBA1 /* PerfektView.swift */,
+				48DC0081256D90420096EBA1 /* PrateritumView.swift */,
+				48DC0082256D90430096EBA1 /* VerbenView.swift */,
+				48DC008F256D90430096EBA1 /* VokabularViewA1.swift */,
+				48DC0083256D90430096EBA1 /* VokabularViewA2.swift */,
+				48DC0085256D90430096EBA1 /* VokabularViewB1.swift */,
+				48DC0086256D90430096EBA1 /* VokabularViewB2.swift */,
+				48DC007F256D90370096EBA1 /* A1View.swift */,
+				481CEF0C256E528200FA6D1D /* PlusquamperfektView.swift */,
+				48B9B9AD257BFA0600FCFDAA /* VokabularViewC1.swift */,
+				489A67FF257FE09800B901AF /* DetailVocabularyView.swift */,
+				489A68012580D98700B901AF /* VerbsDetailView.swift */,
+				489A68032580EB5C00B901AF /* VerbsThreeDetailedView.swift */,
+				489A6805258104C700B901AF /* VocabularyRowView.swift */,
+				489A68072581152000B901AF /* DescriptionView.swift */,
+				489A68092581560300B901AF /* HeaderCaptionStyleView.swift */,
+				487E155F2583DFF50015F571 /* LevelView.swift */,
+				487E156125840E1D0015F571 /* HorizontalListView.swift */,
+				487E15632584E1F80015F571 /* QuizView.swift */,
+				487E156925850DEF0015F571 /* QuestionView.swift */,
+				487E156F25857A7E0015F571 /* QuizA2View.swift */,
+				487E157125857AA20015F571 /* QuizB1View.swift */,
+				487E157325857ABE0015F571 /* QuizB2View.swift */,
+				487E157525857AD90015F571 /* QuizC1View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48DC007D256D900B0096EBA1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48DC00B6256D904D0096EBA1 /* A1LevelsViewModel.swift */,
+				48DC00B1256D904D0096EBA1 /* A2LevelViewModel.swift */,
+				48DC00B3256D904D0096EBA1 /* B1LevelViewModel.swift */,
+				48DC00B7256D904D0096EBA1 /* B2LevelViewModel.swift */,
+				48DC00AF256D904D0096EBA1 /* LevelsViewModel.swift */,
+				48DC00B5256D904D0096EBA1 /* NumberViewModel.swift */,
+				48DC00B2256D904D0096EBA1 /* VerbsViewModel.swift */,
+				481961342577F51D008212DF /* VocabularyViewModel.swift */,
+				48B9B9AB257BF68500FCFDAA /* C1LevelViewModel.swift */,
+				489A67FD257F94FB00B901AF /* AdjectivesViewModel.swift */,
+				487E15672584F1E40015F571 /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48DC007E256D90130096EBA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48DC00C1256D90550096EBA1 /* Level.swift */,
+				48DC00C8256D90550096EBA1 /* Number.swift */,
+				48DC00C2256D90550096EBA1 /* Verben.swift */,
+				48DC00C9256D90550096EBA1 /* Vokabular.swift */,
+				48DC00D3256DA7C60096EBA1 /* VerbInfo.swift */,
+				481CEF10256EAFB900FA6D1D /* SubordinateClauses.swift */,
+				48B9B9B1257C31A100FCFDAA /* ArtikelText.swift */,
+				48B9B9B3257EDCFE00FCFDAA /* TenseInfo.swift */,
+				489A67F9257EF8DE00B901AF /* NumberTest.swift */,
+				489A67FB257F947900B901AF /* Adjective.swift */,
+				487E15652584F0230015F571 /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B24746054E461403E965AA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA56B62A3B6CBEDEB0A12138 /* Pods-DeutschEdu.debug.xcconfig */,
+				C9A9374E0CFE4FE2C602C81E /* Pods-DeutschEdu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A321C8891575CA544E188414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6108D7C678E25F0F2BC10211 /* Pods_DeutschEdu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48DC0079256D8FE60096EBA1 /* Build configuration list for PBXNativeTarget "DeutschEdu" */;
 			buildPhases = (
+				ED35CB1E0AAF5D4A09FFD091 /* [CP] Check Pods Manifest.lock */,
 				48DC0061256D8FE50096EBA1 /* Sources */,
 				48DC0062256D8FE50096EBA1 /* Frameworks */,
 				48DC0063256D8FE50096EBA1 /* Resources */,
+				AC931B69B46F2C32F6B5958D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48DC0075256D8FE60096EBA1 /* LaunchScreen.storyboard in Resources */,
+				48AC45122577CDC400C63D57 /* GoogleService-Info.plist in Resources */,
 				48DC0072256D8FE60096EBA1 /* Preview Assets.xcassets in Resources */,
 				48DC006F256D8FE60096EBA1 /* Assets.xcassets in Resources */,
 			);
@@ -141,14 +363,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC931B69B46F2C32F6B5958D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeutschEdu/Pods-DeutschEdu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DeutschEdu/Pods-DeutschEdu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DeutschEdu/Pods-DeutschEdu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED35CB1E0AAF5D4A09FFD091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeutschEdu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48DC0061256D8FE50096EBA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DC00BA256D904D0096EBA1 /* A2LevelViewModel.swift in Sources */,
+				48DC009C256D90430096EBA1 /* VokabularViewB1.swift in Sources */,
+				487E157225857AA20015F571 /* QuizB1View.swift in Sources */,
+				487E157425857ABE0015F571 /* QuizB2View.swift in Sources */,
+				48DC0099256D90430096EBA1 /* VerbenView.swift in Sources */,
+				48DC00BF256D904D0096EBA1 /* A1LevelsViewModel.swift in Sources */,
+				489A68042580EB5C00B901AF /* VerbsThreeDetailedView.swift in Sources */,
+				48DC00D2256D90550096EBA1 /* Vokabular.swift in Sources */,
+				489A680A2581560300B901AF /* HeaderCaptionStyleView.swift in Sources */,
+				48DC009F256D90430096EBA1 /* ModalverbenView.swift in Sources */,
+				48DC00A4256D90430096EBA1 /* PartizipView.swift in Sources */,
+				48DC00AA256D90430096EBA1 /* B1View.swift in Sources */,
+				48DC0080256D90370096EBA1 /* A1View.swift in Sources */,
+				48DC00BC256D904D0096EBA1 /* B1LevelViewModel.swift in Sources */,
+				489A67FA257EF8DE00B901AF /* NumberTest.swift in Sources */,
+				48DC00CA256D90550096EBA1 /* Level.swift in Sources */,
+				489A6800257FE09800B901AF /* DetailVocabularyView.swift in Sources */,
+				48DC00BE256D904D0096EBA1 /* NumberViewModel.swift in Sources */,
+				489A68082581152000B901AF /* DescriptionView.swift in Sources */,
+				487E15662584F0230015F571 /* Question.swift in Sources */,
+				487E157025857A7E0015F571 /* QuizA2View.swift in Sources */,
+				487E15642584E1F80015F571 /* QuizView.swift in Sources */,
+				487E156225840E1D0015F571 /* HorizontalListView.swift in Sources */,
 				48DC0069256D8FE50096EBA1 /* AppDelegate.swift in Sources */,
+				48DC00D1256D90550096EBA1 /* Number.swift in Sources */,
+				481CEF0D256E528200FA6D1D /* PlusquamperfektView.swift in Sources */,
+				489A68022580D98700B901AF /* VerbsDetailView.swift in Sources */,
+				48DC00A1256D90430096EBA1 /* A2View.swift in Sources */,
+				48DC00AC256D90430096EBA1 /* ButtonStyle.swift in Sources */,
+				48DC009D256D90430096EBA1 /* VokabularViewB2.swift in Sources */,
+				48DC00A7256D90430096EBA1 /* NebensatzeView.swift in Sources */,
+				489A67FC257F947900B901AF /* Adjective.swift in Sources */,
+				48B9B9B2257C31A100FCFDAA /* ArtikelText.swift in Sources */,
+				481CEF11256EAFB900FA6D1D /* SubordinateClauses.swift in Sources */,
+				48DC00A3256D90430096EBA1 /* PerfektView.swift in Sources */,
+				487E15602583DFF50015F571 /* LevelView.swift in Sources */,
+				481961352577F51D008212DF /* VocabularyViewModel.swift in Sources */,
+				487E15682584F1E40015F571 /* QuestionViewModel.swift in Sources */,
+				489A67FE257F94FB00B901AF /* AdjectivesViewModel.swift in Sources */,
+				48DC00C0256D904D0096EBA1 /* B2LevelViewModel.swift in Sources */,
+				48DC00CB256D90550096EBA1 /* Verben.swift in Sources */,
+				48DC00D4256DA7C60096EBA1 /* VerbInfo.swift in Sources */,
 				48DC006B256D8FE50096EBA1 /* SceneDelegate.swift in Sources */,
+				487E156A25850DEF0015F571 /* QuestionView.swift in Sources */,
+				48DC0098256D90430096EBA1 /* PrateritumView.swift in Sources */,
+				48B9B9AC257BF68500FCFDAA /* C1LevelViewModel.swift in Sources */,
+				48DC00A6256D90430096EBA1 /* VokabularViewA1.swift in Sources */,
+				48DC00A9256D90430096EBA1 /* AdjectiveView.swift in Sources */,
+				48DC00A2256D90430096EBA1 /* NummerView.swift in Sources */,
+				48DC00A0256D90430096EBA1 /* B2View.swift in Sources */,
+				48B9B9AE257BFA0600FCFDAA /* VokabularViewC1.swift in Sources */,
+				489A6806258104C700B901AF /* VocabularyRowView.swift in Sources */,
+				48DC00B8256D904D0096EBA1 /* LevelsViewModel.swift in Sources */,
+				48DC00A8256D90430096EBA1 /* C1View.swift in Sources */,
+				48DC009A256D90430096EBA1 /* VokabularViewA2.swift in Sources */,
 				48DC006D256D8FE50096EBA1 /* ContentView.swift in Sources */,
+				48B9B9B4257EDCFE00FCFDAA /* TenseInfo.swift in Sources */,
+				487E157625857AD90015F571 /* QuizC1View.swift in Sources */,
+				48DC00BB256D904D0096EBA1 /* VerbsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +602,7 @@
 		};
 		48DC007A256D8FE60096EBA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA56B62A3B6CBEDEB0A12138 /* Pods-DeutschEdu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +622,7 @@
 		};
 		48DC007B256D8FE60096EBA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A9374E0CFE4FE2C602C81E /* Pods-DeutschEdu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
